@@ -21,8 +21,7 @@ mydata <- read.csv(file="pushups.csv")
 
 <!--In this section you explain what you are trying to show. Where did the data come from? What is the research or other question you are trying to answer?!-->
 
-The question is who can do the most push ups in two minutes, the skilled players or the line players.
-The data came from George town college in Kentucky.
+The question is who can do the most push ups in two minutes, the skilled players or the line players. The data came from George town college in Kentucky.
 
 Create an Rstudio project in your shared space on rstudio.cloud.  Using the dataset called pushups from the tigerstats package in R; answer the question posed by this null and alternate hypothesis in an html markdown document.
 
@@ -33,6 +32,8 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 # Methods
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
+
+Push ups is a numerical variable, position is categorical. There for we use numerical-cat file.
 
 # Results
 
