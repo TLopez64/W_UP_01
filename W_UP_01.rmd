@@ -49,6 +49,7 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ```{r}
 boxplot(pushups~position, data=mydata)
 ```
+
 This boxplot shows that the skill players do more push ups in 2 minutes, on average than the line players.
 
 ### Numerical Descriptive Results
@@ -58,8 +59,7 @@ This boxplot shows that the skill players do more push ups in 2 minutes, on aver
 ```{r}
 favstats(pushups ~ position, data=mydata)
 ```
-
-This table shows that the average number of push ups for 
+This table shows that the average number of pushups for line player was 17, while the average for skill players was 50.
 
 ## Inferential Results
 
