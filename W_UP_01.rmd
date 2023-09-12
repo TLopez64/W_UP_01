@@ -68,6 +68,8 @@ This table shows that the average number of pushups for line player was 17, whil
 t.test(pushups~position, data=mydata)
 ```
 
+The p value is less than 0.05, so reject the null hypothesis. Which concludes there is a difference between the average number of push ups between line and skill players.
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
